@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Countdown</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h3 id="h1"> Event Countdown</h3>
+            <p class="subtitle">Count down to your special events in style</p>
+        </header>
+
+        <div class="event-form">
+            <div class="input-group">
+                <label for="eventName">Event Name</label>
+                <input type="text" id="eventName" placeholder="Enter event name" value="New Year's Eve">
+            </div>
+
+            <div class="input-group">
+                <label for="eventDate">Event Date & Time</label>
+                <input type="datetime-local" id="eventDate">
+            </div>
+
+            <button id="setEvent">Set Countdown</button>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <div class="countdown">
+            <div class="countdown-box">
+                <div class="countdown-value" id="days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-value" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-value" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-box">
+                <div class="countdown-value" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+
+        <div class="event-info">
+            <h2 class="event-title" id="currentEvent">New Year's Eve</h2>
+            <p class="event-date" id="currentDate">January 1, 2024 00:00:00</p>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>

@@ -2,8 +2,6 @@
 
 A stylish, modern, and responsive web application that allows you to count down to your special events. Set a custom event name and date, and watch the seconds tick away in a visually appealing interface.
 
-![Event Countdown Screenshot](screenshot.png) 
-*(Note: You'll need to create a `screenshot.png` of your application for the image to display.)*
 
 ## Features
 
